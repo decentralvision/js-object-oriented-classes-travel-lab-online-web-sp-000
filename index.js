@@ -24,7 +24,7 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
-    const horizontalDistance = eastWest.indexOf(this.beginningLocation["horizontal"] - eastWest.indexOf(this.endingLocation["horizontal"])
+    const horizontalDistance = (eastWest.indexOf(this.beginningLocation["horizontal"] - eastWest.indexOf(this.endingLocation["horizontal"]))
     return horizontalDistance
   }
   estimatedTime() {
