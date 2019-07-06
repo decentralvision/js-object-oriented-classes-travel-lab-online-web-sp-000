@@ -25,7 +25,7 @@ class Route {
       '5th Avenue'
     ];
     const horizontalDistance = (eastWest.indexOf(this.beginningLocation["horizontal"]) - eastWest.indexOf(this.endingLocation["horizontal"]))
-    const verticalDistance = this.beginningLocation["vertical"] -
+    const verticalDistance = this.beginningLocation["vertical"] - this.endingLocation["vertical"]
     return
   }
   estimatedTime() {
