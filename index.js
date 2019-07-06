@@ -9,5 +9,9 @@ class Driver {
     return (year - startDate)
   }
 }
-name
-join date
+
+class Route {
+  constructor(beginningLocation, endingLocation) {
+    [this.beginningLocation, this.endingLocation] = [beginningLocation, endingLocation]
+  }
+}
