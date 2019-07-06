@@ -1,6 +1,6 @@
 class Driver {
   constructor(name, startDate) {
-    [this.name, this.startDate] = [name, startDate]
+    [this.name, this.startDate] = [name, new Date(startDate)]
   }
   startDate() {
     return this.startDate
