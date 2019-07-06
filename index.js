@@ -28,7 +28,7 @@ class Route {
     const verticalDistance = Math.abs(this.beginningLocation["vertical"] - this.endingLocation["vertical"])
     return horizontalDistance + verticalDistance
   }
-  estimatedTime() {
+  estimatedTime(peakHours) {
 
   }
 }
