@@ -24,7 +24,7 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
-    return this.beginningLocation
+    return this.beginningLocation["horizontal"]
   }
   estimatedTime() {
 
