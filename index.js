@@ -14,4 +14,10 @@ class Route {
   constructor(beginningLocation, endingLocation) {
     [this.beginningLocation, this.endingLocation] = [beginningLocation, endingLocation]
   }
+  blocksTravelled() {
+
+  }
+  estimatedTime() {
+
+  }
 }
