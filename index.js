@@ -29,6 +29,10 @@ class Route {
     return horizontalDistance + verticalDistance
   }
   estimatedTime(peakHours) {
-    if peakHours
+    if (typeof peakHours == 'undefined') {
+      return (this.blocksTravelled() / 3)
+    } else {
+      return (this.blocksTravelled() / 2)
+    }
   }
 }
