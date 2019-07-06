@@ -26,7 +26,7 @@ class Route {
     ];
     const horizontalDistance = (eastWest.indexOf(this.beginningLocation["horizontal"]) - eastWest.indexOf(this.endingLocation["horizontal"]))
     const verticalDistance = this.beginningLocation["vertical"] - this.endingLocation["vertical"]
-    return
+    return horizontalDistance + verticalDistance
   }
   estimatedTime() {
 
