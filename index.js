@@ -29,6 +29,6 @@ class Route {
     return horizontalDistance + verticalDistance
   }
   estimatedTime(peakHours) {
-
+    if peakHours
   }
 }
